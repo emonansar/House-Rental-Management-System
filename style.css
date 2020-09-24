@@ -1,0 +1,339 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+	margin: 0 0;
+	padding: 0,0;
+}
+body{
+	font-family: arial,sans-seriff;
+	line-height: 25px;
+}
+/*CSS for Home_new*/
+.list{
+	display: table;
+	margin: 0 auto;
+}
+.list ul{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+
+}
+.list ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	opacity: 1;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin: 1px;
+}
+.list ul li a{
+	text text-decoration: none;
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+.list ul li a:hover{
+	background-color: green;
+}
+.list ul li ul li{
+	display: none;
+}
+.list ul li:hover ul li{
+	display: block;
+}
+/*CSS for Home_new End*/
+.menu .Link{
+	
+	text-align: center;
+	
+}
+
+.clearfix:after{
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+/*CSS For header*/
+.header{
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+	padding: 2%;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+/*CSS For Menu*/
+
+.menu ul{
+	list-style-type: none;
+}
+.menu ul a{
+	color: darkblue;
+	text-decoration: none;
+	padding: 1%;
+}
+.menu ul a:hover{
+	background-color: darkblue;
+	color: white;
+}
+.menu li{
+	display: inline;
+}
+/*CSS For Slider*/
+
+
+/*CSS For Main Body*/
+.main{
+	margin: 1% 0;
+}
+.main .animation{
+	background-color: darkorange;
+	color: white;
+	
+}
+.main .animationn{
+background-color: darkorange;
+color: white;
+
+}
+.main h3{
+	color: white;
+	text-align: center;
+	background-color: blue;
+	padding: 1%;
+}
+.houses{
+	width: 22%;
+	border: 1px solid grey;
+	float: left;
+	margin: 1%;
+	text-align: center;
+}
+.houses .house-title{
+	font-weight: bold;
+	color: darkblue;
+	padding: 1%;
+}
+.house-added,.house-Location{
+	font-weight: lighter;
+	color: darkblue;
+	font-size: 90%;
+	padding: 1%;
+}
+.houses .btn-book{
+	padding: 3%;
+	margin: 3%;
+	background-color: purple;
+	color:white;
+	border: none;
+}
+.houses .btn-book:hover{
+	background-color: red;
+}
+.houses img{
+	width: 100%;
+	
+}
+.houses:hover{
+	box-shadow: 0 0 3px 3px silver;
+}
+.house-price{
+	color: goldenrod;
+	font-size: 120%;
+	padding: 1%;
+}
+
+.book-house p {
+	text-align: justify;
+	padding: 1%;
+	color: #103310;
+
+}
+.book-house img{
+	width: 30%;
+	margin: 2% 2% 2% 0;
+	float: left;
+	
+}
+.book-house h3{
+	text-align: center;
+	margin-bottom: 2%;
+	text-decoration: underline;
+}
+
+.main .booking-details{
+	
+	width: 50%;
+	border: 2px solid darkblue;
+	padding: 2%;
+	margin: 2% auto;
+}
+.main .booking-details h3{
+	margin-bottom: 2%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 5%;
+}
+.main .booking-details .name{
+	float: left;
+	width: 20%;
+}
+.main .booking-details input[type="text"],
+.main .booking-details input[type="email"],
+.main .booking-details input[type="tel"],
+.main .booking-details input[type="password"],
+.main .booking-details textarea{
+
+	padding: 1%;
+	margin: 0.5%;
+	width: 75%;
+}
+.main .booking-details input[type='submit']{
+	border: none;
+	background-color: darkblue;
+	color:white;
+	width: 35%;
+	padding: 2%;
+	margin-left: 20%;
+}
+.main .booking-details input[type='Reset']{
+	border: none;
+	background-color: darkred;
+	color:white;
+	padding: 2%;
+	width: 35%;
+}
+.main .booking-details input[type='submit']:hover{
+	box-shadow: 0 0 3px 2px darkorange;
+}
+.main .booking-details input[type='Reset']:hover{
+	box-shadow: 0 0 3px 2px blue;
+}
+.main .logging-details{
+	
+	width: 60%;
+	border: 2px solid darkblue;
+	padding: 2%;
+	margin: 2% auto;
+}
+.main .logging-details h3{
+	margin-bottom: 2%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	padding: 5%;
+}
+.main .logging-details .name{
+	float: left;
+	width: 20%;
+}
+
+.main .logging-details input[type="password"],.main .logging-details input[type="text"]
+{
+	padding: 1%;
+	width: 50%;
+	margin: 0.5%;
+
+}
+.main .logging-details input[type='submit']{
+	border: none;
+	background-color: darkblue;
+	color:white;
+	width: 20%;
+	padding: 2%;
+	margin-left: 25%;
+}
+.main .logging-details a{
+	border: none;
+	color:darkblue;
+	padding: 1%;
+	width: 35%;
+	padding-left: 2%;
+}
+
+.main .logging-details input[type='Reset']{
+	border: none;
+	background-color: darkred;
+	color:white;
+	padding: 2%;
+	width: 20%;
+}
+.main .logging-details input[type='submit']:hover{
+	box-shadow: 0 0 3px 2px darkorange;
+}
+.main .logging-details input[type='Reset']:hover{
+	box-shadow: 0 0 3px 2px blue;
+}
+/*CSS FOR Slider*/
+@keyframes slider
+{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+    50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+.main .slider {
+	overflow: hidden;
+}
+.main .slider figure img{
+	width: 20%;
+	float: left;
+}
+.main .slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite;
+}
+
+/*CSS For Footer*/
+.footer{
+	background-color: darkblue;
+	color: white;
+	padding: 2%;
+}
+.footer p{
+	text-align: center;
+
+	
+}
+.footer p a{
+	color: lightblue;
+}
+.footer p a:hover{
+	text-decoration: none;
+}

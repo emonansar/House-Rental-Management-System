@@ -1,0 +1,61 @@
+body{
+	background-color: #dc143c;
+}
+#main{
+	height: 450px;
+	background-color: white;
+	margin-top: 100px;
+	border-radius: 20px;
+}
+#info{
+	margin-left: 20px;
+	padding-top: 2px;
+}
+input [type=text]{
+	width: 260px;
+	box-sizing: border-box;
+	border: 2px solid #dc143c;
+	border-radius: 4px;
+}
+.menu .Link{
+	display: table;
+	margin: 0 auto;
+}
+.menu .Link ul{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+
+}
+.menu .Link ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: white;
+	opacity: 1;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin: 1px;
+}
+.menu .Link ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+.menu .Link ul li a:hover{
+	background-color: green;
+}
+.menu .Link ul li ul li{
+	display: none;
+}
+ .menu .Link ul li:hover ul li{
+	display: block;
+}
+/*CSS for Home_new End*/
+.menu .Link{
+	
+	text-align: center;
+	
+}

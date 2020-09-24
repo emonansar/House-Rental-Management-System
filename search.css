@@ -1,0 +1,31 @@
+
+.search form {
+	background-color: darkblue;
+	color: white;
+	text-align: right;
+}
+.search h3{
+	background-color: darkblue;
+	color: white;
+	text-align: right;
+}
+.search button
+{
+    border: none;
+	background-color: green;
+	color:white;
+	padding: .6%;
+	width: 4%;
+	margin: 0.5%;
+}
+.search input[type="text"]
+{
+	border: 4px solid green;
+	padding: .5%;
+	margin: 0.4%;
+	width: 20%;
+ 
+}
+.search button[type='submit']:hover{
+	box-shadow: 0 0 3px 2px blue;
+}
